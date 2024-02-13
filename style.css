@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* padding: 15px; */
+    font-size: 0.7em;
+}
+
+.hide{
+    display: none;
+}
+
+#posts-container{
+    position: absolute;
+    display: flex;
+    background: #f3f3f3;
+    flex-direction: row;
+    width:100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#posts-container>div{
+    position: relative;
+    background: #fff;
+    margin-top: 8px;
+    width: 180px; 
+    height: 180px;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+img{
+    width: 100px;
+
+    }
+
+    #posts-container>div>div{
+        text-align: center;
+        
+    }
