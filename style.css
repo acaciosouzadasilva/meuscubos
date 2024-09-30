@@ -4,16 +4,25 @@
     box-sizing: border-box;
 }
 
-body{
-    /* padding: 15px; */
+/* body{
+    /* padding: 15px; 
     font-size: 0.7em;
+} */
+body{
+
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   
+    
+   
 }
 
 .hide{
     display: none;
 }
 
-#posts-container{
+/* #posts-container{
     position: absolute;
     display: flex;
     background: #f3f3f3;
@@ -31,6 +40,19 @@ body{
     height: 180px;
     border-radius: 5px;
     padding: 8px;
+    
+} */
+#posts-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 8px;
+}
+
+#posts-container>div{
+     background: #d26060;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
     
 }
 
