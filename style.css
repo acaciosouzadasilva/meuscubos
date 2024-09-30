@@ -46,14 +46,16 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 8px;
+    background: #f3f3f3;
 }
 
 #posts-container>div{
-     background: #d26060;
-    width: 150px;
-    height: 200px;
+    background: #fff;
+    width: 180px; 
+    height: 180px;
+    border-radius: 5px;
     margin: 10px;
-    
+    padding: 8px;
 }
 
 img{
