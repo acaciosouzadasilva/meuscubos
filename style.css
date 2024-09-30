@@ -9,9 +9,9 @@
     font-size: 0.7em;
 } */
 body{
-
+   width: 100vw;
    display: grid;
-   align-items: center;
+   /* align-items: center; */
    justify-content: center;
    
     
@@ -43,28 +43,26 @@ body{
     
 } */
 #posts-container{
-   background: #f3f3f3;
-    width: 100vw;   
+   background: #d8d3d3;
+ 
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 10px;
-    gap:1rem;
+    padding: 0.5em;
+    gap:0.5em;
 }
 
 #posts-container>div{
-    background: #fff;
-/*     width: 100%;  */
+    background: #fff;    
     height: 175px;
     border-radius: 15px;
-    padding:8px;
+    padding: 10px;
+    text-align: center;
+  
 }
 
 img{
-    width: 100px;
+    width: 120px;
 
     }
 
-    #posts-container>div>div{
-        text-align: center;
-        
-    }
+  
