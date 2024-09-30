@@ -47,7 +47,7 @@ body{
     width: 100vw;   
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 20px;
+    padding: 10px;
     gap:1rem;
 }
 
