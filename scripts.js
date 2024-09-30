@@ -22,7 +22,7 @@ async function getAllPosts() {
 
     saida.map((post)=>{
         const div = document.createElement("div");
-        const modelo = document.createElement("h2");
+        const modelo = document.createElement("h4");
         const marca = document.createElement("p");
         const divImage = document.createElement('div')
         const imagem = document.createElement("img");
